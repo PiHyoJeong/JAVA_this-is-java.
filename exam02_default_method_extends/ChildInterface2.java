@@ -1,0 +1,11 @@
+package sec07.exam02_default_method_extends;
+
+public interface ChildInterface2 extends ParentInterface{
+	
+	@Override
+	public default void method2() { //¿Á¡§¿«
+		System.out.println("ChildInterface2-method2()");
+	}
+	
+	public void method3();
+}
